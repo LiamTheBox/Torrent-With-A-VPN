@@ -37,7 +37,7 @@ ol {
   background: rgba(50, 50, 50, 0.5);
   text-align: center;
   margin: auto;
-  padding: 0px 10px;
+  padding: 0 10px;
   max-width: 800px;
 }
 
@@ -59,7 +59,13 @@ ol {
 .content-paragraph { /*paragraphs*/
   margin-top: 20px;
   font-size: large;
-  padding: 0 20px 0 15px;
+}
+
+.content-paragraph-left { /*paragraphs*/
+  margin-top: 20px;
+  font-size: large;
+  padding: 0 30px 0 30px;
+  text-align: left;
 }
 /*content center end*/
 
