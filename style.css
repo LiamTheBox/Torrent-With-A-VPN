@@ -40,7 +40,7 @@ ol {
 }
 
 .topic {
-  padding: 0px 30px 60px 30px;
+  padding: 0px 20px 60px 20px;
 }
 
 .topic-section {
@@ -58,6 +58,11 @@ ol {
 
 .content-header-xxl { /*big subtitle*/
   font-size: xx-large;
+}
+
+.content-header-xxl-center { /*big subtitle*/
+  font-size: xx-large;
+  text-align: center;
 }
 
 .content-header-xl { /*small subtitle*/
@@ -94,17 +99,15 @@ a.active {
 /*Images*/
 
 .image {
-  margin: 30px 5%;
+  margin: 30px auto;
   min-width: 0px;
-  max-width: 90%;
-  display: inline-block;
+  width: 95%;
+  display: block;
 }
 .image-logo {
-  margin: 20px;
-  width: 100%;
+  margin: 20px 20px 20px 0px;
   min-width: 0px;
-  max-width: 300px;
-  display: inline-block;
+  max-width: 340px;
 }
 /*-------------------------------------------------------------------------*/
 
@@ -114,8 +117,8 @@ a.active {
 }
 
 /* Responsive layout - makes the both images stack on top of each other instead of next to each other */
-@media screen and (max-width: 740px) {
-  .column {
-    width: 100%;
+@media screen and (max-width: 960px) {
+  .image-logo {
+    width: 500px;
   }
 }
