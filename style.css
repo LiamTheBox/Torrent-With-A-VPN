@@ -69,11 +69,16 @@ ol {
   font-size: x-large;
 }
 
+.content-header-xl-center { /*small subtitle*/
+  font-size: x-large;
+  text-align: center;
+}
+
 .content-paragraph { /*paragraphs*/
   font-size: large;
 }
 
-.content-paragraph-center { /*paragraphs*/
+.content-paragraph-center { /*paragraphs center*/
   font-size: large;
   text-align: center;
 }
